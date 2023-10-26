@@ -1,0 +1,118 @@
+.texedi-footer .container ul li {
+  margin: 10px 5px;
+  padding: 0;
+}
+
+.texedi-footer .container ul {
+  padding: 0;
+  list-style: none;
+}
+
+/*footer*/
+#main-footer {
+  clear: both;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+  background-color: #171a1d;
+}
+
+#main-footer .container {
+  border-top: 2px solid #292e33;
+}
+/* footer elements */
+#footer-elements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px 6px;
+  margin-bottom: 5px;
+}
+
+#footer-elements a {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  padding: 2px 8px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  width: fit-content;
+  transition: all 0.5s linear;
+}
+
+#footer-elements.dark-mode a {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+#footer-elements.light-mode a {
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+#footer-elements.dark-mode a:hover {
+  box-shadow: 0 0 5px #ffffff;
+}
+
+#footer-elements.light-mode a:hover {
+  box-shadow: 0 0 5px #000000;
+}
+
+#main-footer p {
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-family: Graphik, sans-serif;
+  color: #ffffff;
+  background-color: #171a1d;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 30px;
+}
+
+#main-footer .social-media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-footer center h4 {
+  padding-top: 20px;
+  color: #ffffff;
+}
+#main-footer .social-media-icons a {
+  width: 40px;
+  margin: 20px 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+#main-footer .social-media-icons a i {
+  font-size: 20px;
+  width: 40px;
+  margin: auto;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.5s linear;
+}
+
+#main-footer .social-media-icons.dark-mode a i {
+  border: 1px solid #ffffff;
+}
+
+#main-footer .social-media-icons.light-mode a i {
+  border: 1px solid #000000;
+}
+
+#main-footer .social-media-icons.dark-mode a:hover i {
+  transform: scale(1.3);
+  box-shadow: 0 0 5px #ffffff;
+}
+
+#main-footer .social-media-icons.light-mode a:hover i {
+  transform: scale(1.3);
+  box-shadow: 0 0 5px #000000;
+}

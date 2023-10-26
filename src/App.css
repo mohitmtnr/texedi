@@ -1,0 +1,56 @@
+.App {
+  height: 100%;
+  width: 100%;
+}
+
+.App.light {
+  background-color: #ffffff;
+}
+
+.App.dark {
+  background-color: #171a1d;
+}
+
+*::selection {
+  background-color: black;
+  color: white;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* customized focus - form-control(bootstrap class) */
+.form-control:focus {
+  box-shadow: 0px 0px 0px 1px #6f2bf4 !important;
+}
+
+/* input box color */
+
+.input-light {
+  background-color: #ffffff !important;
+  color: #282c34 !important;
+  border-color: #dfe0e1 !important;
+  caret-color: #79828a;
+}
+.input-dark {
+  background-color: #33393e !important;
+  color: #ffffff !important;
+  border-color: #42454d !important;
+  caret-color: #a2aab1;
+}
+
+/* placeholder for input fields */
+.input-dark::placeholder {
+  color: #a2aab1 !important;
+}
+.input-light::placeholder {
+  color: #79828a !important;
+}

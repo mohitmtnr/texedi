@@ -1,0 +1,14 @@
+.preview p.dark {
+  background-color: #33393e;
+  color: #ffffff;
+  border: solid 1px #42454d;
+}
+.preview p.light {
+  background-color: #ffffff;
+  color: #282c34;
+  border: solid 1px #dfe0e1;
+}
+
+.customize-width {
+  width: 96%;
+}

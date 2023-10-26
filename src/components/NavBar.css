@@ -1,0 +1,29 @@
+#nav-modes:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: #969696;
+}
+
+#navbarSupportedContent .nav-item .nav-link {
+  font-weight: 600;
+  margin: auto 5px;
+  transition: all linear 400ms;
+}
+#navbarSupportedContent .nav-item .nav-link:hover {
+  color: #fff;
+  background-color: #6f2bf4;
+  border-radius: 5px;
+}
+#navbarSupportedContent .nav-item .nav-link.active {
+  color: #fff;
+  background-color: #6f2bf4;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+#texedi-search-input:focus {
+  box-shadow: 0px 0px 0px 2px #6f2bf4;
+}
+
+/* @media only screen and (max-with: 991px) {
+} */
