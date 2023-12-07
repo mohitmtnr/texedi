@@ -34,6 +34,3 @@ export default function Alert() {
     )
   );
 }
-
-<i class="fa-regular "></i>;
-<i class="fa-solid fa-circle-xmark"></i>;

@@ -15,7 +15,14 @@ export default function NavBar(props) {
             className={`navbar-brand text-${props.text} m-0`}
             style={{ fontWeight: "800" }}
           >
-            {props.title}
+            <a
+              href="/"
+              style={{ textDecoration: "none" }}
+              className={`text-${props.text}`}
+            >
+              {" "}
+              {props.title}
+            </a>
           </h1>
 
           <button
